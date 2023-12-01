@@ -1,8 +1,8 @@
 import re
 
 
-def read_in_1d():
-    with open("day1.txt", "r") as input_file:
+def read_in():
+    with open("input.txt", "r") as input_file:
         lines = [line.strip() for line in input_file]
     return lines
 
@@ -58,7 +58,7 @@ def p2(values):
 
 
 def main():
-    values = read_in_1d()
+    values = read_in()
     # print(values)
     print(p1(values))
 
