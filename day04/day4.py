@@ -1,6 +1,3 @@
-from functools import reduce
-
-
 def read_in():
     with open("input.txt", "r") as input_file:
         lines = [line.strip().split(":")[1].split("|") for line in input_file]
